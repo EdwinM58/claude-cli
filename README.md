@@ -55,19 +55,20 @@ The script uses the Claude model, which needs to be specified. You can change th
     |  o    o  |   
      \  ____  /    
       `. -- ,'    
-        `--'
+        `--' 
+    ===== CLAUDE INTERACTIVE CHATBOT =====
+    type 'quit' to exit
+    you: Hello, Claude!
+    Claude is typing...
+    claude: Hello! How can I assist you today?
+    
+    you: Tell me a joke.
+    Claude is typing...
+    claude: Why did the scarecrow win an award? Because he was outstanding in his field!
+    
+    you: quit
 
-===== CLAUDE INTERACTIVE CHATBOT =====
-type 'quit' to exit
-you: Hello, Claude!
-Claude is typing...
-claude: Hello! How can I assist you today?
 
-you: Tell me a joke.
-Claude is typing...
-claude: Why did the scarecrow win an award? Because he was outstanding in his field!
-
-you: quit
 
 
 
