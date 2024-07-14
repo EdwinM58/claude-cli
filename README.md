@@ -1,10 +1,10 @@
-# Claude 3 Opus Interactive Chatbot
+# Claude Interactive Chatbot
 
-This Python script interacts with the Claude 3 Opus API from Anthropic to create a conversational assistant. The script reads user inputs, sends them to the API, and returns the assistant's responses in a terminal-based chat interface.
+This Python script interacts with the Claude API from Anthropic to create a conversational assistant. The script reads user inputs, sends them to the API, and returns the assistant's responses in a terminal-based chat interface.
 
 ## Features
 
-- Interactive text-based conversation with Claude 3 Opus.
+- Interactive text-based conversation with Claude.
 - Typing animation to simulate the assistant's response time.
 - Exit the conversation by typing `quit`.
 
@@ -44,5 +44,30 @@ This Python script interacts with the Claude 3 Opus API from Anthropic to create
     - Type your message and press Enter.
     - Type `quit` to exit the conversation.
 
+### Specifying the Model
+
+The script uses the Claude model, which needs to be specified. You can change the model in the `client.messages.create` function. Example models include `claude-1`, `claude-2`, `claude-3-opus-20240229`, etc.
+
 ## Example
+
+      ________ 
+     /        \    
+    |  o    o  |   
+     \  ____  /    
+      `. -- ,'    
+        `--'
+
+===== CLAUDE INTERACTIVE CHATBOT =====
+type 'quit' to exit
+you: Hello, Claude!
+Claude is typing...
+claude: Hello! How can I assist you today?
+
+you: Tell me a joke.
+Claude is typing...
+claude: Why did the scarecrow win an award? Because he was outstanding in his field!
+
+you: quit
+
+
 
